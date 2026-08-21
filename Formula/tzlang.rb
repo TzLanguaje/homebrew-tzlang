@@ -22,7 +22,7 @@
 #   3. Pon el sha256 del tarball de
 #      la version. Se saca asi:
 #
-#      curl -fsSL https://github.com/TzLanguaje/TzLanguaje/archive/refs/tags/v0.2.3.tar.gz \
+#      curl -fsSL https://github.com/TzLanguaje/TzLanguaje/archive/refs/tags/v0.4.1.tar.gz \
 #        | shasum -a 256
 #
 #   4. Los usuarios instalan con:
@@ -38,8 +38,8 @@
 class Tzlang < Formula
   desc "Lenguaje de programacion educativo con sintaxis en espanol"
   homepage "https://github.com/TzLanguaje/TzLanguaje"
-  url "https://github.com/TzLanguaje/TzLanguaje/archive/refs/tags/v0.2.3.tar.gz"
-  sha256 "cfc920a685eec79a39b720fc1c7dfe9d9ca35b6dd1af0658ae29f093ed512e17"
+  url "https://github.com/TzLanguaje/TzLanguaje/archive/refs/tags/v0.4.1.tar.gz"
+  sha256 "31137cdc3745d78e4e5a7ccaf6fccdd77e5f80152c0f963ac2dd3a1fea2198cb"
   license "MIT"
   head "https://github.com/TzLanguaje/TzLanguaje.git", branch: "main"
 
